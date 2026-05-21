@@ -165,3 +165,7 @@ deploy.py
 manifests
 build
 ts.py
+
+# AppImage build artifacts
+output/
+aqtinstall.log
