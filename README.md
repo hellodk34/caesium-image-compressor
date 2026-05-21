@@ -23,7 +23,7 @@ chmod +x ./Caesium_Image_Compressor-x86_64_v2.8.5.AppImage
 
 我在debian13+gnome48环境下绑定系统快捷键 `Alt + I` 使用。
 
-![caelium设置自定义快捷键](./images/caelium设置自定义快捷键.jpg)
+![gnome设置全局自定义快捷键](./images/gnome设置全局自定义快捷键.jpg)
 
 ## 使用截图 / Use screenshots
 
