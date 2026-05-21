@@ -33,7 +33,7 @@ sudo docker run --rm \
     caesium-builder \
     bash /build-appimage.sh
 
-# 3. 产物在 output/ 目录下，修复权限
+# 3. 产物在 output/ 目录下，为 root 所有，修复权限：改成普通用户所有
 sudo chown $USER:$USER output/Caesium_Image_Compressor-*.AppImage
 ```
 
@@ -62,6 +62,10 @@ sudo chown $USER:$USER output/Caesium_Image_Compressor-*.AppImage
 ## 致谢 / Credits
 
 - [Caesium Image Compressor](https://github.com/Lymphatus/caesium-image-compressor) — 原始项目
-- [garywill](https://github.com/garywill) — 早期的 Linux AppImage 维护者（最新版 v2.6.0）
+- [larygwil](https://github.com/larygwil/caesium-image-compressor) — 早期 Linux AppImage 维护者及其 fork 的仓库（最新版 v2.6.0）
 - [linuxdeploy](https://github.com/linuxdeploy/linuxdeploy) — AppImage 打包工具
 - [aqtinstall](https://github.com/miurahr/aqtinstall) — Qt 安装工具
+
+#### Downloads Count
+
+![GitHub release downloads](https://img.shields.io/github/downloads/hellodk34/caesium-image-compressor/total)
