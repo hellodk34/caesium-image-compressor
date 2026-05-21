@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-only
 # Caesium Image Compressor Linux AppImage builder
-# Repository: https://github.com/<your-username>/caesium-image-compressor
+# Repository: https://github.com/hellodk34/caesium-image-compressor
 
 FROM ubuntu:22.04
 
