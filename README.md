@@ -10,6 +10,12 @@ Linux 桌面用户可直接从本仓库的 Releases 页面下载最新的 AppIma
 
 Pre-built AppImage packages are available on the Releases page. Download and run — no build required.
 
+## 使用截图 / Use screenshots
+
+![linux下运行的2.8.5版本.jpg](./images/linux下运行的2.8.5版本.jpg)
+![主界面截图.jpg](./images/主界面截图.jpg)
+![压缩成功.jpg](./images/压缩成功.jpg)
+
 ## 自行构建 / Build from Source
 
 ```bash
@@ -18,10 +24,10 @@ git clone https://github.com/hellodk34/caesium-image-compressor.git
 cd caesium-image-compressor
 
 # 1. 构建临时 Docker 镜像
-docker build -t caesium-builder -f caesium-builder.Dockerfile .
+sudo docker build -t caesium-builder -f caesium-builder.Dockerfile .
 
 # 2. 构建 AppImage（如上游有新 tag，需同步更新 build-appimage.sh 中的版本号）
-docker run --rm \
+sudo docker run --rm \
     -v "$(pwd)/build-appimage.sh":/build-appimage.sh \
     -v "$(pwd)/output":/output \
     caesium-builder \
