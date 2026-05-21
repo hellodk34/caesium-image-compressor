@@ -10,6 +10,21 @@ Linux 桌面用户可直接从本仓库的 Releases 页面下载最新的 AppIma
 
 Pre-built AppImage packages are available on the Releases page. Download and run — no build required.
 
+## 在你的 Linux DE 下运行
+
+```bash
+# 0. 添加权限
+chmod +x ./Caesium_Image_Compressor-x86_64_v2.8.5.AppImage
+
+# 1. 运行程序
+./Caesium_Image_Compressor-x86_64_v2.8.5.AppImage
+
+```
+
+我在debian13+gnome48环境下绑定系统快捷键 `Alt + I` 使用。
+
+![caelium设置自定义快捷键](./images/caelium设置自定义快捷键.jpg)
+
 ## 使用截图 / Use screenshots
 
 ![linux下运行的2.8.5版本.jpg](./images/linux下运行的2.8.5版本.jpg)
